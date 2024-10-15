@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en html</title>
+</head>
+<body>
+    <h1>Formulario HTML : Alta de usuario</h1>
+    <form action="">
+        <!--incluir label en todos los campos-->
+        <p> <label for="usuario">USUARIO:</label><input type="text" name="usuario" id="usuario" placeholder="user"></p>
+        <p><input type="password" name="clave" id="clave" placeholder="Contraseña" ></p>
+        <p>REGISTRADO: <input type="checkbox" name="chk_registro" id="chk_registro"></p>
+        <p>
+            SEXO: 
+            <input type="radio" name="rad_sexo" id="rad_sexo" value="m">Masculino
+            <input type="radio" name="rad_sexo" id="rad_sexo" value="f">Femenino
+        </p>
+        <p>
+            CAMPO PREFERIDO: 
+            <input type="radio" name="rad_campo" id="rad_campo" value="inf">Informática
+            <input type="radio" name="rad_campo" id="rad_campo" value="mat">Matemáticas
+            <input type="radio" name="rad_campo" id="rad_campo" value="fis">Físca
+        </p>
+        <p>EDAD: <input type="number" name="n_edad" id="n_edad" placeholder="Edad del usuario"></p>
+        <p>SUBIR CURRÍCULO:</p>
+        <p><input type="file" name="fichero" id="fichero" accept="application/x-zip-compressed" ></p> 
+        <p>
+            ESTATURA: <input type="range" name="rg_estatura" id="rg_estatura" min="0" max="200" step="50"> cm
+        </p>
+        <p>
+            FECHA DE REGISTRO: <input type="date" name="dt_registro" id="dt_registro">
+        </p>
+        <p>
+            PAÍS:
+            <select name="cb_pais" id="cb_pais">
+                <option value="">Selecione País</option>
+                <option value="DE">Alemania</option>
+                <option value="ES">España</option>
+                <option value="IT">Italia</option>
+                <option value="FR">Francia</option>
+            </select>
+        </p>
+        <p>
+            COMENTARIOS: <textarea name="comentarios" id="comentarios" maxlength="255"></textarea>
+        </p>
+        <p>
+            <label for="">Esto es una etiqueta label...</label>
+        </p>
+        <p> 
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </p>
+    </form>
+    
+    <!--Otro formulario web-->
+    <h2>Otro Formulario</h2>
+    <form action="">
+        <!--Para agrupar campos-->
+        <fieldset>
+            <legend>Datos de cliente</legend>
+            <p>
+                <label for="correo">Correo Electrónico: </label>
+                <input type="email" name="correo" id="correo">
+            </p>
+            <p>
+                <label for="clave">Clave: </label>
+                <input type="password" name="clave" id="clave">
+            </p>
+            <p><label for="">(Longitud mínima 6 carácteres)</label></p>
+            
+        </fieldset>
+        <p> 
+            <input type="submit" value="login">
+            <input type="reset" value="reset">
+        </p>
+
+    </form>
+</body>
+</html>
