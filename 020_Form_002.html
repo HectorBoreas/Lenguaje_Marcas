@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios método POST</title>
+</head>
+<body>
+    <h1>FORMULARIO CON MÉTODO POST</h1>
+
+    <form action="021_recibir_datos.html" method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <p>
+                Usuario: <input type="text" name="usuario" id="usuario" placeholder="Introduce usuario">
+                Clave: <input type="password" name="Clave" id="Clave" placeholder="Introduce Clave">
+                <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+        <hr>
+
+        <p>
+            COLOR: <input type="color" name="micolor" id="micolor">
+        </p>
+        <p>
+            Hora: <input type="time" name="mihora" id="mihora">
+        </p>
+        <p>
+            <input type="button" value="Pulsa el botón" onclick="alert('Hola Mundo');">
+        </p>
+    </form>
+    <hr>
+    <form action="">    
+        <p>
+            Buscar: <input type="search" name="Mibus" id="Mibus">
+            <input type="submit" value="Buscar">
+        </p>
+        <p>
+            URL: <input type="url" name="mienlace" id="mienlace" placeholder="http://www.iesinfantaelena.es">
+        </p>
+    </form>
+</body>
+</html>
