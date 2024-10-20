@@ -1,0 +1,11 @@
+header nav .whoami {
+    background: var(--fondo-primario);
+    color: var(--fuente-primaria);
+}
+.main h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main hr {
+    margin: 20px;
+}

@@ -1,0 +1,17 @@
+section article {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+}
+section article h2 {
+    padding-bottom: 20px;
+    font-size: 20pt;
+    width: 100%;
+}
+section article p {
+    text-align: justify;
+    justify-content: space-around;
+    padding: 20px;
+
+    /*flex*/
+}

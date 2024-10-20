@@ -1,0 +1,28 @@
+header nav .index {
+    background: var(--fondo-primario);
+    color: var(--fuente-primaria);
+}
+section article {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+}
+section article h2 {
+    padding-bottom: 20px;
+    font-size: 20pt;
+    width: 100%;
+}
+section article p {
+    text-align: justify;
+    justify-content: space-around;
+
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+}
+section article p img {
+    margin-right: 10px;
+}
+section hr {
+    margin: 20px;
+}

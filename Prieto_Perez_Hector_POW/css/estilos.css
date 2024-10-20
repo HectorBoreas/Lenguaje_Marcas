@@ -1,0 +1,154 @@
+/*Defino las variables para los colores, y para facilitar el cambio*/
+:root {
+    --fondo-primario: #ccc;
+    --fondo-secundario: #fff;
+    --botones-oscuro: #c0392b;
+    --botones-claro: #e74c3c;
+    --cajas-secundarias-oscuro: #526b85;
+    --cajas-secundarias-claro: #e67e22;
+    --fuente-primaria: #000;
+    --fuente-secundaria: #fff;
+}
+
+
+/*Empecmos definiendo que no tendrá margenes ni padding, y definiendo las cajas*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*defino la estructura general, fondo, tamaño y margenes. He indico que el resto de elementos dentro usarán flex*/
+.caja_head {
+    background: var(--fondo-secundario);
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*Defino otro fondo para el header, margenes, aliniación */
+header {
+    background: var(--cajas-secundarias-oscuro);
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+     
+}
+
+header .logo {
+    color: var(--fuente-secundaria);
+    font-size: 90px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+header .logo img {
+    width: 200px;
+    vertical-align: top;
+    padding: 20px;
+}
+header .logo a {
+    color: var(--fuente-secundaria);
+    text-decoration: none;
+    line-height: 10px;
+}
+/*Con width 100% para que ocupe toda la caja, todo el ancho*/
+header nav {
+
+    /*Flex*/
+    display: flex;
+    align-items: center;
+    
+}
+header nav a {
+    width: 100%;
+    background: var(--botones-oscuro);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+/*pongo efecto cuando pasamos el ratón sobre el enlace, cambio de color*/
+header nav a:hover {
+    background: var(--botones-claro);
+}
+
+/*estilos y estructura la parte principal*/
+section {
+    background: var(--fondo-primario);
+    padding: 20px;
+    max-width: 80%;
+
+    /*flex*/
+    flex:1 1 75%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*Colocación y tamaño barra lateral*/
+aside {
+    background: var(--fondo-primario);
+    padding: 20px;
+
+    /*Flex*/
+    flex:1 1 25%;        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+aside nav {
+    height: 150px;
+    margin: 10px;
+    
+    /*Flex*/
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+aside nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--fuente-primaria);
+}
+aside nav a:hover {
+    background: var(--botones-claro);
+    columns: var(--fuente-secundaria);
+}
+footer {
+    background: var(--fondo-primario);
+    width: 100%;
+    padding: 20px;
+
+    /*Flex*/
+    display: flex;
+    align-items: center;
+}
+footer nav {
+    /*Flex*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+footer nav a {
+    width: 100%;
+    background: var(--botones-oscuro);
+    color: var(--fuente-secundaria);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+footer nav a:hover {
+    background: var(--botones-claro);
+}

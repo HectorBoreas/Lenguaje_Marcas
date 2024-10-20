@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiénes somos</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/whoami.css">
+	<link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
     <div class="caja_head">
@@ -29,45 +29,42 @@
         <!--Definino un par de parrafos en una sección para organizar la estructura-->
 		<section class="main">
 			<article class="uno">
-				<h2 class="titulo">Quienes somos</h2>
-				<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam,</strong>
+				<h2 class="titulo">Lorem ipsum dolor sit amet.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
 			<hr>
-			<article class="dos">
-				<h2 class="titulo">Que te ofrecemos</h2>
-				<p><strong><em>Lorem ipsum dolor sit amet</em></strong>, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<br><br>
-				<p>
-				<strong><em>Lorem ipsum dolor sit amet</em></strong>, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<br><br>
-				<p>
-				<strong><i>Lorem ipsum dolor sit amet</i></strong>, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-            </article>
-
-
+			<h2>Suscribete a nuestra Newslatter</h2>
+			<form action="recibido.html" method="get">
+				<fieldset>
+					<legend>Formulario de contacto</legend>
+					<p>
+						Nombre: <input type="text" name="nombre" id="nombre" class="nombre" placeholder="Pepe">
+					</p>
+					<p>
+						Apellidos: <input type="text" name="Apellido" id="apellido" class="apellido" placeholder="García">
+					</p>
+					<p>
+						Email: <input type="email" name="correo" id="correo" placeholder="dirección@correo.es">
+					</p>
+					<p class="army">
+						Ejercito: 
+							<input type="radio" name="Imperium" id="Imperium" value="bien">Imperium
+							<input type="radio" name="Xenos" id="Xenos" value="alien">Xenos
+							<input type="radio" name="Caos" id="Caos" value="herje">Caos
+					</p>
+					<p>	
+						Color Favorito: <input type="color" name="tono" id="tono">
+					</p>
+					<p>
+					<input type="submit" value="Enviar" class="btn_enviar">
+					</p>
+				</fieldset>
+			</form>
 	
 		</section>
 

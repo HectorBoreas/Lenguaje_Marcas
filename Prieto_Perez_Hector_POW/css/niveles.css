@@ -1,0 +1,11 @@
+header nav .niveles {
+    background: var(--fondo-primario);
+    color: var(--fuente-primaria);
+}
+
+.main article p{
+    margin-bottom: 20px;
+}
+.main article table {
+    margin-bottom: 20px;
+}

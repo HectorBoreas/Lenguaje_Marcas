@@ -1,0 +1,23 @@
+header nav .contacto {
+    background: var(--fondo-primario);
+    color: var(--fuente-primaria);
+}
+.main hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main h2 {
+    margin-bottom: 20px;
+}
+.main form fieldset {
+    padding: 20px;
+}
+.main form fieldset p {
+    padding: 10px;
+}
+.main form fieldset p .btn_enviar {
+    font-size: 15pt;
+    padding: 5px;
+    background: var(--botones-oscuro);
+    color: var(--fuente-secundaria);
+}
