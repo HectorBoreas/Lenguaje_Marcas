@@ -9,6 +9,9 @@ header nav .contacto {
 .main h2 {
     margin-bottom: 20px;
 }
+.main .uno {
+    text-align: justify;
+}
 .main form fieldset {
     padding: 20px;
 }

@@ -9,3 +9,13 @@ header nav .whoami {
 .main hr {
     margin: 20px;
 }
+.main .uno {
+    text-align: justify;
+}
+.main .dos ul {
+    text-align: justify;
+}
+.main .dos ul li {
+    padding: 10px;
+    margin-left: 20px;
+}
