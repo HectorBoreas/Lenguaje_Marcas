@@ -9,13 +9,12 @@
     --fuente-primaria: #000;
     --fuente-secundaria: #fff;
 }
-
-
 /*Empecmos definiendo que no tendrá margenes ni padding, y definiendo las cajas*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*Establezco la fuentes principales, me acorde al final y busque la que no me descuadraba todo*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -31,7 +30,7 @@
     flex-flow: row wrap;
 }
 
-/*Defino otro fondo para el header, margenes, aliniación */
+/*Defino otro fondo para el header, margenes, y que ocupe todo el ancho */
 header {
     background: var(--cajas-secundarias-oscuro);
     width: 100%;
@@ -40,6 +39,7 @@ header {
      
 }
 
+/*Establezco rl tamaño de las letras del logo, la colocación y que la imagen es hija para el flex*/
 header .logo {
     color: var(--fuente-secundaria);
     font-size: 90px;
@@ -68,11 +68,13 @@ header nav {
     align-items: center;
     
 }
+/*Estilo y color enlaces del la barra de navegación*/
 header nav a {
     width: 100%;
     background: var(--botones-oscuro);
-    color: #fff;
+    color: var(--fuente-secundaria);
     text-align: center;
+    /*Con esto quito el subrayado y color estandar de los enlaces*/
     text-decoration: none;
     padding: 10px;
     
@@ -82,14 +84,15 @@ header nav a:hover {
     background: var(--botones-claro);
 }
 
-/*estilos y estructura la parte principal*/
+/*estilos y estructura la parte principal solo base
+Continua en la pagina de estilos de la página concreta*/
 section {
     background: var(--fondo-primario);
     padding: 20px;
     max-width: 80%;
 
     /*flex*/
-    flex:1 1 75%;
+    flex:1 1 75%;/*Que mantenga la estructura y ocupe le 75% del espacio para dejar un 25 a la barra lateral*/
     display: flex;
     flex-direction: column;
     
@@ -125,6 +128,7 @@ aside nav a:hover {
     background: var(--botones-claro);
     columns: var(--fuente-secundaria);
 }
+/*Colocación y estilos pie de página*/
 footer {
     background: var(--fondo-primario);
     width: 100%;
