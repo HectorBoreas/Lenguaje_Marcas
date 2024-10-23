@@ -89,7 +89,7 @@ Continua en la pagina de estilos de la página concreta*/
 section {
     background: var(--fondo-primario);
     padding: 20px;
-    max-width: 80%;
+    max-width: 75%;
 
     /*flex*/
     flex:1 1 75%;/*Que mantenga la estructura y ocupe le 75% del espacio para dejar un 25 a la barra lateral*/
