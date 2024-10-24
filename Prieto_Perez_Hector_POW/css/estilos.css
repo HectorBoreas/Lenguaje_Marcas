@@ -60,6 +60,9 @@ header .logo a {
     text-decoration: none;
     line-height: 10px;
 }
+h1{
+    font-size: larger;
+}
 /*Con width 100% para que ocupe toda la caja, todo el ancho*/
 header nav {
 
