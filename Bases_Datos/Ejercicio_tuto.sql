@@ -88,7 +88,3 @@ INSERT INTO Modulos_Alumnos VALUES(null, 4, 1);
 INSERT INTO Modulos_Alumnos VALUES(null, 2, 2);
 INSERT INTO Modulos_Alumnos VALUES(null, 6, 6);
 
-
-
-
-
