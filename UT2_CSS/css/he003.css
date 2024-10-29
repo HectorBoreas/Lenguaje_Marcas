@@ -1,0 +1,17 @@
+/* Todos los span con el atributo lang en negrita*/
+span[lang] { font-weight: bold; }
+/* Todos los span en portugues en verde*/
+span[lang="pt"] { color: green; }
+/* Todos los span en inglés en azul*/
+span[lang~="en-us"] { color: blue; }
+/* Todos los span en chino en rojo*/
+span[lang|="zh"] { color: red; }
+/* Todos los enlaces internos con # fondo dorado*/
+a[href^="#"] {background-color: gold;}
+/* Todos los enlaces cuya URL termine en cn */
+a[href$=".cn"] {color: olive;}
+/* Todos los enlaces cuya URL contenga la palabra "example"  */
+a[href*="example"] {background-color: #cccccc;}
+
+
+

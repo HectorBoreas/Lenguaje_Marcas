@@ -180,5 +180,27 @@ CREATE TABLE Historial_Pedidos (
 -- Ejercicio 21
 /* Ejercicio 21 */
 
--- Agregar clave foranea de usuario a tabla de direcciones
-ALTER TABLE Direcciones ADD fk_id_usuario INT SET FOREIGN KEY;
+# Agregar clave foranea de usuario a tabla de direcciones
+
+#ALTER TABLE Direcciones ADD CONSTRAINT fk_id_usuario FOREIGN KEY(fk_id_usuario) REFERENCES Usuarios(id_usuario);
+
+#ALTER TABLE Historial_Pedidos ADD CONSTRAINT fk_id_pedido FOREIGN KEY(fk_id_pedido) REFERENCES Pedidos(id_pedido);
+
+ALTER TABLE Historial_Precios ADD fk_id_pedido INT FOREIGN KEY REFERENCES Pedidos(id_pedido);
+#ALTER TABLE Historial_Precios ADD CONSTRAINT fk_id_pedido FOREIGN KEY(fk_id_pedido) REFERENCES Pedidos(id_pedido);
+
+#ALTER TABLE Pedidos ADD CONSTRAINT fk_id_usuario FOREIGN KEY(fk_id_usuario) REFERENCES Usuarios(id_usuario);
+
+ALTER TABLE Productos ADD CONSTRAINT fk_id_categoria FOREIGN KEY(fk_id_categoria) REFERENCES Categorias(id_categoria);
+ALTER TABLE Productos ADD CONSTRAINT fk_id_proveedor FOREIGN KEY(fk_id_proveedor) REFERENCES Proveedors(id_proveedor);
+
+ALTER TABLE Reseñas ADD CONSTRAINT fk_id_producto FOREIGN KEY(fk_id_producto) REFERENCES Productos(id_producto);
+ALTER TABLE Reseñas ADD CONSTRAINT fk_id_usuario FOREIGN KEY(fk_id_usuario) REFERENCES Usuarios(id_usuario);
+
+#ALTER TABLE Stocks ADD CONSTRAINT fk_id_producto FOREIGN KEY(fk_id_producto) REFERENCES Productos(id_producto);
+
+ALTER TABLE Wishlists ADD CONSTRAINT fk_id_producto FOREIGN KEY(fk_id_producto) REFERENCES Productos(id_producto);
+ALTER TABLE Wishlists ADD CONSTRAINT fk_id_usuario FOREIGN KEY(fk_id_usuario) REFERENCES Usuarios(id_usuario);
+
+
+
