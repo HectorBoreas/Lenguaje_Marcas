@@ -1,0 +1,38 @@
+p {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    color: aliceblue;
+    padding: 25px;
+    padding-left: 100px;
+}
+.caja1 {
+    margin-bottom: 75px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20%;
+    background-color: rgba(25, 25, 25, 0.15);
+}
+.palabra2 {
+    color: rgba(0, 0, 255, 0.6);
+}
+/*https://www.w3.org/TR/2010/PR-css3-color-20101028/#svg-color*/
+.caja2 {
+    margin-top: 75px;
+    border-style: dashed;
+    border-color: rgb(155, 31, 189);
+    border-radius: 3%;
+    background-image: url(../imagenes/gafas.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    opacity: 0.75;
+    height: 600px;
+}
+#caja3 {
+    background-color: blue;
+}
+#caja3 p {
+    color: red;
+}
