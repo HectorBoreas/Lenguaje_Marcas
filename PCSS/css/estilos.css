@@ -1,0 +1,127 @@
+/*Defino las variables para los colores, y para facilitar el cambio*/
+:root {
+    --fondo-primario: #ccc;
+    --fondo-secundario: green;
+    --botones-oscuro: #c0392b;
+    --botones-claro: #e74c3c;
+    --cajas-secundarias-oscuro: #526b85;
+    --cajas-secundarias-claro: #e67e22;
+    --fuente-primaria: #000;
+    --fuente-secundaria: #fff;
+}
+/*Empecmos definiendo que no tendrá margenes ni padding, y definiendo las cajas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+.main{
+    background: var(--fondo-secundario);
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+    /*Flex*/
+    display: flex;
+    /*Con esto cuando un elemento no cabe en una solo linea, se coloca en filas dentro del envoltorio*/
+    flex-flow: row wrap;
+}
+/*Estilo especifico de las citas a autores que icluirá la web*/
+blockquote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    padding-top: 0px;
+}
+.cabecera{
+    background: var(--cajas-secundarias-oscuro);
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+.cabecera header img {
+    width: 200px;
+    vertical-align: top;
+    padding: 20px;
+    
+}
+.navegacion {
+    position: fixed;
+    background: var(--cajas-secundarias-oscuro);
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+.navegacion nav {
+    display: flex;
+    align-items: center;
+}
+.navegacion nav a {
+    width: 100%;
+    background: var(--botones-oscuro);
+    color: var(--fuente-secundaria);
+    text-align: center;
+    /*Con esto quito el subrayado y color estandar de los enlaces*/
+    text-decoration: none;
+    padding: 10px;
+}
+.navegacion nav a:hover {
+    background: var(--botones-claro);
+}
+header{
+    color: var(--fuente-secundaria);
+    font-size: 90px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+header a{
+    color: var(--fuente-secundaria);
+    text-decoration: none;
+    line-height: 10px;
+    
+}
+h1{
+    font-size: larger;
+}
+.principal {
+    padding: 20px;
+    background-color: var(--cajas-secundarias-claro);
+    flex: 70%;
+}
+.lateral  {
+    background-color: var(--cajas-secundarias-oscuro);
+    padding: 20px;
+    flex: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: flex-start;*/
+    position: relative;
+}
+.lateral aside nav {
+    position: fixed;
+    height: 150px;
+    margin: 10px;
+    
+    /*Flex*/
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.lateral aside nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--fuente-primaria);
+    background-color: var(--botones-oscuro);
+}
+.lateral aside nav a:hover {
+    background-color: var(--botones-claro);
+    columns: var(--fuente-secundaria);
+}
+.principal section p {
+    padding: 20px;
+}
