@@ -1,0 +1,24 @@
+table{
+    border: 4px solid red;
+    margin-left: 50px;
+    border-spacing: 0;
+}
+
+table td{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/*td{border: 2px solid green;}*/
+.fila_1 td, .fila_2 td{border-bottom: 2px solid green;}
+.fila_3 td:nth-child(2){border-left: 2px solid green; border-right: 2px solid green;}
+.fila_4 td{border-top: 2px solid green;}
+.fila_4 td:first-child{border-right: 2px solid green;}
+.fila_1 td:first-child{border-right: 2px solid green;}
+.fila_1 td:nth-child(3){border-left: 2px solid green; border-right: 2px solid green;}
+
+tr:first-child{background-color: aqua;}
+tr:last-child{background-color: orange;}
+tr:nth-child(2){background-color: blue; color: white;}
+tr:nth-child(3){color: blueviolet; font-weight: bold; vertical-align: top;}

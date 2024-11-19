@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo 001</title>
+</head>
+<style>
+    a:hover{color: red;}
+    button:active{background-color: green;}
+    input:focus{outline: none;/*Quitar resalte por defecto*/
+        border: 4px solid blue;}
+    a:visited{color: coral;}
+    p:first-child{color: rosybrown;}
+    p:last-child{color: olive;}
+    p:nth-child(3){color: blueviolet;}/*para ir a un hijo en concreto por orden*/
+    p:nth-child(2){color: rgb(226, 43, 162);}
+</style>
+<body>
+    <h1>Pseudo clases</h1>
+
+    <h2>:HOVER</h2><!--Cuando pasamos con el ratón por encima-->
+    <a href="#">Enlace con hover</a>
+
+    <h2>:ACTIVE</h2><!--Mientras el elemento es presionado-->
+    <button>Botón activo</button>
+
+    <h2>:FOCUS</h2><!--Cuando coge el foco el elemento-->
+    <form action="#">
+        <input type="text" name="a" id="a" placeholder="a">
+        <input type="number" name="n" id="n" placeholder="1">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>:VISITED</h2>
+    <a href="#">Visitado</a>
+
+    <h2>:CHILDS</h2>
+    <div>
+        <p>Primer párrafo</p>
+        <p>Segundo párrafo</p>
+        <p>Tercero párrafo</p>
+        <p>Cuerto párrafo</p>
+    </div>
+    <!--Enable disable y empty, poco usados. Investigar-->
+</body>
+</html>

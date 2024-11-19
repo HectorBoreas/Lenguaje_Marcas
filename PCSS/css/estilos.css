@@ -101,11 +101,13 @@ h1{
     flex-wrap: wrap;
     /*justify-content: flex-start;*/
     position: relative;
+    border: 2px solid;
 }
 .lateral aside nav {
     position: fixed;
     height: 150px;
     margin: 10px;
+    
     
     /*Flex*/
     display: flex;
