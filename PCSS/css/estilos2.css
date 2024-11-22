@@ -13,13 +13,17 @@
 *{
     /*max-width: 1200px;*/
     margin: 0;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding: 0;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12pt;
 }
+a{
+    text-decoration: none;
+}
 .main{
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: var(--fondo-primario);
     width: 100%;
     max-width: 1200px;
@@ -38,6 +42,7 @@
     margin-bottom: 0px;
     display: inline-block;
     
+    
 }
 
 .titulo a img {
@@ -45,35 +50,48 @@
     width: 200px;
     vertical-align: top;
     padding: 20px;
-    background-color: green;
+    
     
 }
 .titulo a h1{
+    
     display: inline-block;
+    width: 75%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-align: right;
     font-size: 30pt;
-    background: red;
-    
-    
+    padding-top: 75px;
+    color: var(--fuente-secundaria);
 }
 .navegacion {
     position: fixed;
     background: var(--cajas-secundarias-oscuro);
-    width: 100%;
-    padding: 0px;
+    width: 61.45%;
+    
+    padding: 10px;
+    padding-top: 0;
     padding-bottom: 0px;
 }
 .navegacion nav {
     align-items: center;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    
     
 }
 .navegacion nav a {
-    width: 100%;
     background: var(--botones-oscuro);
     color: var(--fuente-secundaria);
     text-align: center;
     /*Con esto quito el subrayado y color estandar de los enlaces*/
     text-decoration: none;
     padding: 10px;
+    justify-content: space-around;
 }
 .navegacion nav a:hover {
     background: var(--botones-claro);
