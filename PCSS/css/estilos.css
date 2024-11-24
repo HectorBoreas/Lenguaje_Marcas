@@ -1,129 +1,151 @@
 /*Defino las variables para los colores, y para facilitar el cambio*/
 :root {
-    --fondo-primario: #ccc;
-    --fondo-secundario: green;
-    --botones-oscuro: #c0392b;
-    --botones-claro: #e74c3c;
-    --cajas-secundarias-oscuro: #526b85;
+    --fondo-primario: rgb(159, 213, 209);
+    --fondo-secundario: rgb(227,228,229);
+    --botones-oscuro: rgb(51,47,44);
+    --botones-claro: rgb(227,228,229);
+    --cajas-secundarias-oscuro: rgb(4, 111, 120);
     --cajas-secundarias-claro: #e67e22;
-    --fuente-primaria: #000;
-    --fuente-secundaria: #fff;
+    --fuente-textos: rgb(0,0,0);
+    --fuente-primaria: rgb(227,228,229);
+    --fuente-secundaria: rgb(4, 111, 120);
 }
 /*Empecmos definiendo que no tendrá margenes ni padding, y definiendo las cajas*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
     text-align: justify;
+    background-color: var(--fondo-primario);
+    color: var(--fuente-textos);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.main{
-    background: var(--fondo-secundario);
-    width: 90%;
-    max-width: 1200px;
-    margin:auto;
-    /*Flex*/
-    display: flex;
-    /*Con esto cuando un elemento no cabe en una solo linea, se coloca en filas dentro del envoltorio*/
-    flex-flow: row wrap;
+/*Estilo estándar de todos los parrafos*/
+p {     
+    font-size: 12pt;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+p:first-child{
+    padding-top: 70px;
+}
+p:last-child{
+    padding-bottom: 70px;
 }
 /*Estilo especifico de las citas a autores que icluirá la web*/
 blockquote{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     padding: 20px;
-    padding-top: 0px;
-}
-.cabecera{
-    background: var(--cajas-secundarias-oscuro);
-    width: 100%;
-    padding: 0px;
-    padding-bottom: 0px;
-}
-.cabecera header img {
-    width: 200px;
-    vertical-align: top;
-    padding: 20px;
+    padding-bottom: 0;
     
 }
-.navegacion {
-    position: fixed;
-    background: var(--cajas-secundarias-oscuro);
-    width: 100%;
-    padding: 0px;
-    padding-bottom: 0px;
-}
-.navegacion nav {
-    display: flex;
-    align-items: center;
-}
-.navegacion nav a {
-    width: 100%;
-    background: var(--botones-oscuro);
-    color: var(--fuente-secundaria);
-    text-align: center;
-    /*Con esto quito el subrayado y color estandar de los enlaces*/
+/*Estilos de enlaces*/
+a{
     text-decoration: none;
-    padding: 10px;
 }
-.navegacion nav a:hover {
-    background: var(--botones-claro);
-}
-header{
-    color: var(--fuente-secundaria);
-    font-size: 90px;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0px;
-}
-header a{
-    color: var(--fuente-secundaria);
-    text-decoration: none;
-    line-height: 10px;
-    
-}
-h1{
-    font-size: larger;
-}
-.principal {
-    padding: 20px;
-    background-color: var(--cajas-secundarias-claro);
-    flex: 70%;
-}
-.lateral  {
-    background-color: var(--cajas-secundarias-oscuro);
-    padding: 20px;
-    flex: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    /*justify-content: flex-start;*/
-    position: relative;
-    border: 2px solid;
-}
-.lateral aside nav {
-    position: fixed;
-    height: 150px;
-    margin: 10px;
-    
-    
-    /*Flex*/
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-}
-.lateral aside nav a {
-    text-decoration: none;
-    padding: 10px;
-    color: var(--fuente-primaria);
+/*Estilos de enlaces dentro de menús de navegación*/
+nav a {
     background-color: var(--botones-oscuro);
+    color: var(--fuente-primaria);
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
 }
-.lateral aside nav a:hover {
+nav a:hover {
     background-color: var(--botones-claro);
-    columns: var(--fuente-secundaria);
+    color: var(--fuente-secundaria);
 }
-.principal section p {
+h2 {
+    margin-top: 70px;
+}
+
+/*Estilos de para el cuerpo principal de la web*/
+.main{
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: var(--fondo-primario);
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* Estilos de la cabacera, logo, titulo*/
+.main .cabecera{
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+.titulo{
+    background-color: var(--cajas-secundarias-oscuro);
+    width: 100%;
+    display: inline-block;
+}
+
+.titulo a img {
+    background-color: var(--cajas-secundarias-oscuro);
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    padding: 20px;    
+}
+.titulo a {background-color: var(--cajas-secundarias-oscuro);}
+
+.titulo a h1{    
+    background-color: var(--cajas-secundarias-oscuro);
+    display: inline-block;
+    width: 75%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 30pt;
+    padding-top: 55px;
+    color: var(--fuente-primaria);
+}
+
+/*Barra de navegación superior*/
+
+.navegacion nav a {
+    padding: 10px;
+    float: left;
+    width: 14.2857%;
+}
+
+/*Proporcion parte principal y barra lateral*/
+.principal {width: 75%;}
+
+.lateral {width: 25%;}
+
+.lateral aside {
+    position: fixed; /*Para que se mueva al subir y bajar con scroll*/
+    right: 430px;
+    top: 250px;
+    height: 50%; 
+    width: 200px;     
+}
+.lateral aside a {
     padding: 20px;
+    display: block;
+    /*Expando los botones para que ocupen todo el alto*/
+    line-height: 60px;
+}
+
+
+/*Estilos pie de página, basicamente los mismo que el supuerior*/
+.pie {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+.pie footer nav {
+    align-items: center;
+    width: 100%;    
+}
+.pie footer nav a {
+    padding: 10px;
+    float: left;
+    width: 14.2857%;    
 }

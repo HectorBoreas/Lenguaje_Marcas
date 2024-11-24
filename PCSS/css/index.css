@@ -1,0 +1,8 @@
+.e_interno_01, .e_interno_08 {
+    background-color: var(--fondo-secundario);
+    color: var(--fuente-textos);
+}
+.principal section img{
+    width: 100%;
+    margin-top: 40px;
+}
