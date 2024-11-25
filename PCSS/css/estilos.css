@@ -1,6 +1,6 @@
 /*Defino las variables para los colores, y para facilitar el cambio*/
 :root {
-    --fondo-primario: rgb(159, 213, 209);
+    --fondo-primario: rgba(159, 213, 209, 0.5); /*Con la trasparencia consigo transición de tonos en los distintos fondos*/
     --fondo-secundario: rgb(227,228,229);
     --botones-oscuro: rgb(51,47,44);
     --botones-claro: rgb(227,228,229);
@@ -10,6 +10,7 @@
     --fuente-primaria: rgb(227,228,229);
     --fuente-secundaria: rgb(4, 111, 120);
 }
+
 /*Empecmos definiendo que no tendrá margenes ni padding, y definiendo las cajas*/
 *{
     margin: 0;
@@ -20,6 +21,7 @@
     color: var(--fuente-textos);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /*Estilo estándar de todos los parrafos*/
 p {     
     font-size: 12pt;
@@ -32,14 +34,16 @@ p:first-child{
 p:last-child{
     padding-bottom: 70px;
 }
+
 /*Estilo especifico de las citas a autores que icluirá la web*/
 blockquote{
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     padding: 20px;
-    padding-bottom: 0;
-    
+    padding-bottom: 0;    
 }
+blockquote span {font-weight: bold;}
+
 /*Estilos de enlaces*/
 a{
     text-decoration: none;
@@ -56,7 +60,8 @@ nav a:hover {
     background-color: var(--botones-claro);
     color: var(--fuente-secundaria);
 }
-h2 {
+/*Estilos titulos*/
+h2, h3 {
     margin-top: 70px;
 }
 
@@ -107,7 +112,6 @@ h2 {
 }
 
 /*Barra de navegación superior*/
-
 .navegacion nav a {
     padding: 10px;
     float: left;
@@ -132,7 +136,6 @@ h2 {
     /*Expando los botones para que ocupen todo el alto*/
     line-height: 60px;
 }
-
 
 /*Estilos pie de página, basicamente los mismo que el supuerior*/
 .pie {

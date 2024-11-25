@@ -1,0 +1,14 @@
+.principal section img{
+    width: 100%;
+    margin-top: 40px;
+}
+.p_7 a{
+    font-weight: bold;
+    background-color: var(--botones-oscuro);
+    color: var(--fuente-primaria);
+    padding: 10px;
+}
+.p_7 a:hover {
+    background-color: var(--botones-claro);
+    color: var(--fuente-secundaria);
+}

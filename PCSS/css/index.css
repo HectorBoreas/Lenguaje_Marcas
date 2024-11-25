@@ -1,3 +1,4 @@
+/*Para que los botones tengan otro estilo en la misma página a la que hacen referencia*/
 .e_interno_01, .e_interno_08 {
     background-color: var(--fondo-secundario);
     color: var(--fuente-textos);

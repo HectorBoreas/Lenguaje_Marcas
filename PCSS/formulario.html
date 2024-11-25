@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasaia</title>
+    <!--Links a la páginas de estilo, general y específica-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
     <div class="main">
+        <!--Cabecera, con logo y título, con enlaces a la págiana de inicio-->
         <div class="cabecera">
             <header class="titulo">
                 <a href="Index.html"><img src="imagenes/logofaro.jpg" width="150px" alt="logo"></a>
                 <a href="Index.html"><h1>Faro de Plata</h1></a>
             </header>
         </div>
+        <!--Barra de navegación con enlaces internos-->
         <div class="navegacion">
             <nav>
                 <a href="Index.html" class="e_interno_01">Inicio</a>
@@ -26,21 +29,41 @@
                 <a href="formulario.html" class="e_interno_07">Contacto</a>
             </nav>
         </div>
-        <!-- Información general sobre Pasaia-->
+        <!-- -->
         <div class="principal">
             <section>
-                <p class="p_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto neque rerum facere repudiandae aperiam consectetur. Molestias neque, autem saepe illo eligendi, ipsam dolore provident cum perferendis nobis earum rerum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vel doloremque eveniet quos? Blanditiis laboriosam tenetur architecto perspiciatis totam aperiam, soluta doloribus unde dignissimos quaerat itaque earum facilis fugit eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, magni aliquam praesentium cupiditate laudantium, corrupti maxime veniam voluptatum optio unde illum. Perspiciatis ullam ipsa ex eius sequi beatae! Laborum, at.</p>
-                <blockquote>hfhjkdkl jshadj asjhiefivcalknd asifroña Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, minima? Totam nesciunt deserunt debitis laboriosam molestias cupiditate sapiente voluptates veritatis, quas labore cumque. Culpa minus labore cum at voluptate ipsum!</blockquote>
-                <p class="p_2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis veritatis similique mollitia deleniti nisi ad quaerat. Nemo saepe voluptates magnam provident, excepturi totam officia cum, dicta deleniti minima nobis ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet explicabo optio eligendi eum officiis dicta, ratione harum tenetur! Doloribus pariatur inventore sapiente iusto architecto eius laboriosam aperiam in aspernatur vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam debitis veniam distinctio possimus temporibus eveniet aperiam. Ratione quod doloremque id distinctio minima iure odio quia suscipit, porro sit error?</p>
-                <p class="p_3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur facilis rerum pariatur? Magni at consequatur doloremque voluptatum odit! Sint dolores voluptatem veritatis maxime illo quidem illum aliquid, maiores nam animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere non accusantium inventore officiis hic eius quasi officia commodi distinctio! Ipsa, culpa aut saepe amet dolore beatae mollitia doloremque excepturi ipsum.
-                Commodi assumenda exercitationem totam, possimus quasi dicta delectus veritatis asperiores! Ratione sunt, odio dolore nobis at veniam facere, sequi ipsam officiis reprehenderit asperiores ea consequatur inventore in nihil sint eveniet.
-                Perferendis, reiciendis ab. Temporibus ut labore aliquid eligendi ipsa architecto at, beatae sunt? Accusantium deserunt numquam in ratione dolor similique aut iure maxime repellendus exercitationem, deleniti, distinctio voluptas magnam! In?</p>
-                <p class="p_4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum laboriosam quos voluptatum temporibus dolorem ipsa voluptas aperiam similique officiis fugit, excepturi ratione? Dolor adipisci odit omnis nobis architecto, optio minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem saepe mollitia neque culpa tempora tempore accusamus iure sit voluptas quaerat eligendi? Tempora voluptas ab totam autem incidunt dolorum hic?
-                Ut pariatur consectetur velit placeat fugiat aut laborum repellendus adipisci, perspiciatis ipsam quos exercitationem tempore totam et doloribus facere! Esse porro, error voluptatem culpa non adipisci cupiditate perspiciatis iste asperiores.
-                Modi atque quaerat ratione nam ipsum voluptatibus suscipit velit perferendis quae officia accusantium eos magni ab natus animi corrupti minus deserunt quibusdam itaque, recusandae quo non exercitationem quia. Sequi, in.
-                A sed neque suscipit natus ipsam. Molestiae non, facere suscipit vel pariatur nostrum ut? Officia fugit laborum dolorum ad libero cumque minus, nulla exercitationem blanditiis id sint iusto itaque. Saepe.</p>
+                <h2>Contacto</h2>
+                <img src="imagenes/Puerto_pasaia9j.jpg" alt="bocana">
+                <p class="p_1">En caso de que estes interesado en conocer más sobre Pasaia, como rutas, gastronomía, etc. Ponemos a su disposición el siguiente formulario</p>
+                <h2>Contactanos</h2>
+                <div class="formulario">
+                    <form action="Index.html" method="get">
+                        <fieldset>
+                            <legend>Formulario de contacto</legend>
+                            <p class="p_2">
+                                Nombre: <input type="text" name="nombre" id="nombre" class="nombre" placeholder="Pepe">
+                            </p>
+                            <p class="p_3">
+                                Apellidos: <input type="text" name="apellido" id="apellido" class="apellido" placeholder="García">
+                            </p>
+                            <p class="p_4">
+                                Email: <input type="email" name="correo" id="correo" class="correo" placeholder="dirección@correo.es">
+                            </p>
+                            <p class="interes">
+                                Interés: 
+                                    <input type="radio" name="Pasaia" id="Pasaia" value="Ayuntamiento">Pasaia
+                                    <input type="radio" name="Rutas" id="Rutas" value="Rutas">Rutas
+                                    <input type="radio" name="Gastronomía" id="Gastronomía" value="">Gastronomía
+                            </p>
+                            <p class="boton"><input type="submit" value="Enviar" class="btn_enviar" onclick="alert('Solicitud recibida');"></p>
+                        </fieldset>
+                    </form>
+               </div>
+                <img src="imagenes/Sanjuan-8104.jpg" alt="">
+                <blockquote>Vista aérea de San Juan</blockquote>
             </section>
         </div>
+        <!--Barra lateral, con enlaces externos, que se mantenga cuando haces scroll-->
         <div class="lateral">
             <aside>
                 <nav>
@@ -52,6 +75,7 @@
                 </nav>
             </aside>
         </div>
+        <!--Barra de navegación con enlaces internos-->
         <div class="pie">
             <footer>
                 <nav>

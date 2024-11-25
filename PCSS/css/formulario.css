@@ -2,3 +2,36 @@
     background-color: var(--fondo-secundario);
     color: var(--fuente-textos);
 }
+fieldset {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: var(--fondo-secundario);
+}
+fieldset legend{
+    font-weight: bold;
+}
+.p_2, .p_3, .p_4, .interes, .boton {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+input{width: 80%;}
+.nombre {margin-left: 50px;}
+.apellido {margin-left: 41px;}
+.correo {margin-left: 67px;}
+.interes input{margin-left: 50px;}
+.btn_enviar{
+    font-weight: bold;
+    background-color: var(--botones-oscuro);
+    color: var(--fuente-primaria);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.btn_enviar:hover {
+    background-color: var(--botones-claro);
+    color: var(--fuente-secundaria);
+}
+blockquote:last-child{
+    padding-bottom: 40px;
+}
