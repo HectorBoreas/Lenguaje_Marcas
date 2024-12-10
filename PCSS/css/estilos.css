@@ -115,7 +115,7 @@ h2, h3 {
 .navegacion nav a {
     padding: 10px;
     float: left;
-    width: 14.2857%;
+    width: 14.2857%;/*Divido el espacio entre el número de botones*/
 }
 
 /*Proporcion parte principal y barra lateral*/
@@ -150,5 +150,5 @@ h2, h3 {
 .pie footer nav a {
     padding: 10px;
     float: left;
-    width: 14.2857%;    
+    width: 14.2857%;/*Divido el espacio entre el número de botones*/
 }
