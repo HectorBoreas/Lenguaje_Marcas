@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket nombre="SUPER-STAR, S.A" nif="A28654321">
+    
+    <local>
+        <logo></logo>
+        <nombre>Tienda 27</nombre>
+        <direccion>
+            <poblacion>Alcobendas</poblacion>
+            <provincia>Madrid</provincia>
+        </direccion>
+    </local>
+    
+    <datos_receptor>
+        <nombre>RESTAURANTE LA CHULETA</nombre>
+        <nif>A28027270</nif>
+        <direccion>
+            <via>C/ URBANO 11</via>
+            <codigo_postal>28001</codigo_postal>
+            <provincia>Madrid</provincia>
+        </direccion>
+    </datos_receptor>
+    
+    <datos_factura>
+        <tipo>Factura Simplificada</tipo>
+        <codigo clave="Fra">0002 00 000015</codigo>
+        <fecha>
+            <anio>2013</anio>
+            <mes>Enero</mes>
+            <dia>30</dia>
+        </fecha>
+    </datos_factura>
+    
+    <productos>
+        
+        <producto>
+            <identificador>1</identificador>
+            <nombre>MANZANA REINETA</nombre>
+            <iva>
+                <IVA>4,00%</IVA>
+                <base>2,23</base>
+                <T_iva>0,09</T_iva>
+                <total>2,32</total>
+            </iva>
+            <peso_o_cantidad>1,230</peso_o_cantidad>
+            <precio_kilo>1,09</precio_kilo>
+            <total>2,32</total>
+        </producto>
+
+
+    </productos>
+
+</ticket>

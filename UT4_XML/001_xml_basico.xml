@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>    
+    <coche>
+        <matricula>HZX-3678</matricula>
+        <marca>Fiat</marca>
+        <peso>800</peso>
+        <plazas>5</plazas>
+        <nombre> &lt; </nombre>
+    </coche>
+    <coche>
+        <matricula>GGX-3778</matricula>
+        <marca>Mercedes</marca>
+        <peso>1700</peso>
+        <plazas>7</plazas>
+    </coche>
+
+</coches>
