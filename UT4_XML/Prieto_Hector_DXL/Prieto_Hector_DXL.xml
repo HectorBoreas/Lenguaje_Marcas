@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<carta>
+<!--En el caso de la carta de cervezas no he añadido el fondo de la carta y la líneas, pues entiendo que eso son decisones de diseño que se resolveran el maquetarla, y le xml solo es la información.
+Quizas incluir un comenteario para el diseñador con ideas o sugerencias. -->
+    <cerveza>
+        <foto><Image Select="/imagenes/heineken.jpg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Heineken</nombre>
+        <graduacion>5,0%</graduacion>
+        <descripcion>
+            Cerveza de tipo Lager y estilo Lager, seca de cuerpo ligero, con buen paso paso de boca. Su aroma frutal a plátano procedente de su fermentación lenta, 
+            perdura hasta el consumo final, mezclándose con el ligero sabor dulce de la malta Pilsen y su amargor suave.
+        </descripcion>
+        <precio>3,00 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/Desesperados.jpg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Desperados</nombre>
+        <graduacion>5,9%</graduacion>
+        <descripcion>
+            Cerveza innovadora elaborada con ingredientes naturales como malta de cebada, maíz y un largo etc. De color amarillo dorado. 
+            Cerveza Premium aromatizada con tequila, sabor suave, agradable y refrescante con matices amargos.
+        </descripcion>
+        <precio>3,50 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/Sol.jpg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Sol</nombre>
+        <graduacion>4,5%</graduacion>
+        <descripcion>
+            Cerveza suave de origen mexicano, que se toma directamente en la botella con una rodaja de lima o limón. Color claro con un exquisito aroma, 
+            de bajo amargor y refrescante sabor, sofisticada y suave.
+        </descripcion>
+        <precio>3,00 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/Paulaner-Weissbier_alemana_cervezas-diferentes.jpg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Paulaner</nombre>
+        <graduacion>5,5%</graduacion>
+        <descripcion>
+            Originaria de Münich, donde a comienzos del siglo XII se establecieron los monjes de St. Paulis, donde empezaron a elaborar esta Paulaner de trigo. 
+            Elaborada con malta de trigo, de fermentación alta, con un sabor afrutado y natural.
+        </descripcion>
+        <precio>3,50 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/amstel-radler-1.jpg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Amstel Radler</nombre>
+        <graduacion>2,0%</graduacion>
+        <descripcion>
+            Fusión única entre el gran sabor de la cerveza Amstel, mezcalda con zumo de limón natural, para crear una nueva experiencia de sabor. 
+            Extemadamente refrescante. La mejor opción frente a las tradicionales claras de limón.
+        </descripcion>
+        <precio>2,50 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/buckler-00-botella.png" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Buckler 0,0%</nombre>
+        <graduacion>0,0%</graduacion>
+        <descripcion>
+            Cerveza 0,0% alcohol de color dorado con reflejos brillantes y espuma blanca consistente. Presente en aromas a cereales malteados. 
+            Es una cerveza de cuerpo ligero con regusto suave amargo y refrescante.
+        </descripcion>
+        <precio>2,00 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/guinness.jpeg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Guinness</nombre>
+        <graduacion>4,2%</graduacion>
+        <descripcion>
+            Guinness es una cerveza tipo Aler, estilo Stout, de espuma cremosa, arraigada a la más pura tradición irlandesa. Esta cerveza debe ser servida en dos tiempos para poder disfrutar de la espuma suave 
+            y cremosa que ha hecho famosa a Guinness.
+        </descripcion>
+        <precio>5,00 €</precio>
+    </cerveza>
+
+    <cerveza>
+        <foto><Image Select="/imagenes/Judas.jpg" Height="2" Width="4"  Optional="true"/></foto>
+        <nombre>Judas</nombre>
+        <graduacion>8,5%</graduacion>
+        <descripcion>
+            "Cerveza maliciosa, placer divino". Judas es una cerveza estilo rubia belga, de fuerte color oro, sabor muy intenso y contrapunto de notas dulces y amargas. 
+            Cerveza original de Bélgica fue premio "Selección del mundo".
+        </descripcion>
+        <precio>4,00 €</precio>
+    </cerveza>
+
+    <cerveza>        
+        <nombre>Mort Subite</nombre>
+        <variedad>
+            Framboise
+            <foto><Image Select="/imagenes/Judas.jpg" Height="2" Width="4"  Optional="true"/></foto>
+            <graduacion>(4,2%)</graduacion>
+        </variedad>
+        <variedad>
+            Kriek
+            <foto><Image Select="/imagenes/mortsubiteframboise-33.jpg" Height="2" Width="4"  Optional="true"/></foto>
+            <graduacion>(4,3%)</graduacion>
+        </variedad>
+        <descripcion>
+            Cerveza de fermentación espontánea cuya mezcla de cebadas, lúpulos y frutas aporta sabores únicos e inigualables. 
+            El origen del nombre viene de un juego de dados típico de una cervecería de Bruselas.
+        </descripcion>
+        <precio>4,00 €</precio>
+    </cerveza>
+
+</carta>
