@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operaciones>
+    <criptomonedas>
+        <criptomoneda id="1" nombre="bitcoin">        
+                <valoractual divisa="$">87424,7</valoractual>
+                <simbolo>BTC</simbolo>
+                <cantidad>5</cantidad>
+                <precio><![CDATA[ 37,80% ]]></precio>
+                <exchange>Uno</exchange>        
+        </criptomoneda>
+
+        <criptomoneda id="2" nombre="dogecoin">        
+                <valoractual divisa="$">0,205811</valoractual>
+                <simbolo>DOGE</simbolo>
+                <cantidad>100</cantidad>
+                <precio><![CDATA[ 1,75 %]]></precio>
+                <exchange>Dos</exchange>        
+        </criptomoneda>
+
+        <criptomoneda id="3" nombre="etherium">        
+                <valoractual divisa="$">2426,70</valoractual>
+                <simbolo>ETH</simbolo>
+                <cantidad>50</cantidad>
+                <precio><![CDATA[ 21,87% ]]></precio>
+                <exchange>Tres</exchange>        
+        </criptomoneda>
+    </criptomonedas>
+
+
+    <transaciones>
+        <blockchain id="1" tipo="test">
+            <moneda>bitcoin</moneda>
+            <cantidad>2</cantidad>
+            <precio><![CDATA[ 7%]]></precio>
+            <fecha>01/02/2025</fecha>
+        </blockchain>
+
+        <blockchain id="2" tipo="test_2">
+            <moneda>Dogecoin</moneda>
+            <cantidad>25</cantidad>
+            <precio><![CDATA[ -2%]]></precio>
+            <fecha>14/02/2025</fecha>
+        </blockchain>
+    </transaciones>
+
+</operaciones>

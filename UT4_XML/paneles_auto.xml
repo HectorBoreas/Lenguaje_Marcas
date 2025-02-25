@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel_informativo>
+    <evento tipo="accidente" id="1" evento="1">
+        <punto_kilometrico>42200</punto_kilometrico>
+        <nombre_via tipo="autopista" carriles="3">A-49</nombre_via>
+        <sentido>Huelva</sentido>
+        <corte_via>1 carril</corte_via>
+        <fecha>
+            <año></año>
+            <mes></mes>
+            <dia></dia>
+            <hora></hora>
+        </fecha>
+        <retencion kilometros="8">Sí</retencion>
+    </evento>
+    <evento tipo="retencion" id="2" evento="1" >
+        <punto_kilometrico>550</punto_kilometrico>
+        <nombre_via tipo="autopista" carriles="3">A-4</nombre_via>
+        <sentido>Sevilla</sentido>
+        <corte_via></corte_via>
+        <fecha>
+            <año></año>
+            <mes></mes>
+            <dia></dia>
+            <hora></hora>
+        </fecha>
+        <retencion kilometros="3">Sí</retencion>
+    </evento>
+</panel_informativo>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblio>
+    <libros>
+        <libro codigo_ISBN="2332694" publicacion_año="1997">
+            <nombre>La sombra del Águila</nombre>
+            <editorial>Minotauro</editorial>
+            <autor>Reverte</autor>
+            <ejemplares cantidad="6">
+                <ejemplar>1234569</ejemplar>
+            </ejemplares>
+        </libro>
+    </libros>    
+    <socios>
+        <socio id_socio="13455">
+            <nombre dni="123789456X">
+                <pila></pila>
+                <apellido1></apellido1>
+                <apellido2></apellido2>
+            </nombre>
+            <direccion>
+                <via tipo="calle">Candanchu</via>
+                <numero>37</numero>
+                <ecalera valor="no"/>
+                <piso puerta="E">2</piso>               
+            </direccion>
+        </socio>
+    </socios>
+    <prestamos>
+        <prestamo fecha="">
+            <ejemplar></ejemplar>
+            <socio></socio>
+        </prestamo>
+    </prestamos>
+</biblio>

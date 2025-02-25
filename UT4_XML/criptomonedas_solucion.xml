@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo_cripto>
+
+    <criptomonedas>
+        <criptomoneda id="1">
+            <nombre>Bitcoin</nombre>
+            <simbolo>BTC</simbolo>
+            <cantidad>0.5</cantidad>
+            <precio actual="60000">70000</precio>
+            <exchange plataforma="Binance">Online</exchange>
+        </criptomoneda>
+
+        <criptomoneda id="2">
+            <nombre>Ethereum</nombre>
+            <simbolo>ETH</simbolo>
+            <cantidad>2</cantidad>
+            <precio actual="2500">3500</precio>
+            <exchange plataforma="Coinbase">Online</exchange>
+        </criptomoneda>
+    </criptomonedas>
+
+    <transacciones>
+        <transaccion id="101">
+            <tipo>Compra</tipo>
+            <moneda simbolo="BTC">Bitcoin</moneda>
+            <cantidad>0.1</cantidad>
+            <precio moneda="$">58000</precio>
+            <fecha>2024-02-21</fecha>
+        </transaccion>
+        <transaccion id="102">
+            <tipo>Venta</tipo>
+            <moneda simbolo="ETH">Ethereum</moneda>
+            <cantidad>0.4</cantidad>
+            <precio moneda="$">2800</precio>
+            <fecha>2024-02-23</fecha>
+        </transaccion>
+        <transaccion id="103">
+            <tipo>Compra</tipo>
+            <moneda simbolo="BTC">Bitcoin</moneda>
+            <cantidad>0.4</cantidad>
+            <precio moneda="€">68000</precio>
+            <fecha>2024-02-26</fecha>
+        </transaccion>        
+    </transacciones>
+
+</catalogo_cripto>
