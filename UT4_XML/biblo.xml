@@ -85,13 +85,13 @@
         </socio>
     </socios>
     <prestamos>
-        <prestamo fecha="Mon, 12 Feb 2025 10:15:00 GMT">
-            <ejemplar codigo_ejemplar="12345-001">La Sombra del águila</ejemplar>
-            <socio id_socio="13455">Miguel Riaño García</socio>
-            <devolucion valor="1">Fri, 16 Feb 2025 13:45:00 GMT</devolucion>
+        <prestamo id_prestamo="6565" fecha="Mon, 12 Feb 2025 10:15:00 GMT">
+            <ejemplar codigo_ejemplar="12345-001"/><!--Mejor forma-->
+            <socio id_socio="13455"/>
+            <devolucion fecha="Fri, 16 Feb 2025 13:45:00 GMT">Sí</devolucion>
         </prestamo>
         <prestamo fecha="Fri, 16 Feb 2025 14:15:00 GMT">
-            <ejemplar codigo_ejemplar="98745-002">Hyperion</ejemplar>
+            <codigo_ejemplar >98745-002</codigo_ejemplar>
             <socio id_socio="13455">Miguel Riaño García</socio>
             <devolucion valor="0"/>
         </prestamo>
