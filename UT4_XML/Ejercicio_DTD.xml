@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos [
+    <!ELEMENT articulos (articulo)*>
+    <!ELEMENT articulo (nombre, marca, descripcion, precio)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ATTLIST articulo 
+        id CDATA #REQUIRED 
+        disponible CDATA "si"
+        moneda CDATA #FIXED "EUR"  
+        envioGratis (sí | no) #REQUIRED
+    >
+]>
+
+<articulos>
+    <articulo id="001" disponible="no" moneda="EUR" envioGratis="sí">   
+        <nombre>A78</nombre>
+        <marca>Samsung</marca>
+        <descripcion>Tsan Sun mato al hermano de Liu Kang</descripcion>
+        <precio>931</precio>
+    </articulo>
+</articulos>
