@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalogo2.xsd">
+    <producto>
+        <nombre>Teléfono Móvil</nombre>
+        <precio>299.99</precio>
+        <categoria>CEletrónica</categoria>
+    </producto>
+    <producto>
+        <nombre>Impresora 3D</nombre>
+        <precio>1499.99</precio>
+        <categoria>CImpresión</categoria>
+    </producto>
+</catalogo>

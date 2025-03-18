@@ -15,7 +15,7 @@
 ]>
 
 <articulos>
-    <articulo id="001" disponible="no" moneda="EUR" envioGratis="sí">   
+    <articulo id="001" disponible="no" envioGratis="sí">   
         <nombre>A78</nombre>
         <marca>Samsung</marca>
         <descripcion>Tsan Sun mato al hermano de Liu Kang</descripcion>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsi:annotation>
+        <xsi:documentation>
+            Define una biblioteca compuesta por libros que pueden tener
+            múltiples autores y deja como opcional la editorial.
+        </xsi:documentation>
+    </xsi:annotation>
+    <xsi:element name="catalogo">
+        <xsi:complexType>
+            <xsi:sequence>           
+                <xsi:element name="producto" maxOccurs="unbounded">
+                    <xsi:complexType>
+                        <xsi:sequence>
+                            <xsi:element name="nombre" type="xsi:string" minOccurs="1" maxOccurs="1"/>
+                            <xsi:element name="precio" type="xsi:decimal" minOccurs="1" maxOccurs="unbounded"/>
+                            <xsi:element name="categoria" type="xsi:string" minOccurs="1" maxOccurs="1"/>
+                        </xsi:sequence>
+                        <xsi:attribute name="cod" type="xsi:string"/>
+                    </xsi:complexType>
+                </xsi:element>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+</xsi:schema>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="biblioteca.xsd">
+    <libro cod="01">
+        <titulo>La Colmena</titulo>
+        <autor>Camilo José Cela</autor>
+        <año>2005</año>
+        <editorial>Rama</editorial>
+    </libro>
+    <libro cod="02">
+        <titulo>Las Hijas del capitán</titulo>
+        <autor>Maria Dueñas</autor>
+        <año>2020</año>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro cod="03">
+        <titulo>Esperanza</titulo>
+        <autor>Daniele Steel</autor>
+        <año>2018</año>
+        <editorial>Anaya</editorial>
+    </libro>
+</biblioteca>
