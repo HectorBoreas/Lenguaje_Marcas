@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches2.xsd">
+    <coche tipo="Deportivo" id="C001">
+        <modelo>Ferrari F8</modelo>
+        <velocidad>250</velocidad>
+        <puertas>2</puertas>
+        <color metalizado="si">Rojo</color>
+        <precio>250000</precio>
+        <fecha_lanzamiento>2020-03-05</fecha_lanzamiento>
+    </coche>
+    <coche tipo="SUV" id="C002">
+        <modelo>Range Rover Evoque</modelo>
+        <velocidad>220</velocidad>
+        <puertas>5</puertas>
+        <color metalizado="no">Negro</color>
+        <precio>60000</precio>
+        <fecha_lanzamiento>2022-09-12</fecha_lanzamiento>
+    </coche>
+    <coche tipo="Sedán" id="C003">
+        <modelo>BMW serie 5</modelo>
+        <velocidad>250</velocidad>
+        <puertas>3</puertas>
+        <color metalizado="si">Gris</color>
+        <precio>100000</precio>
+        <fecha_lanzamiento>2019-02-13</fecha_lanzamiento>
+    </coche>
+</coches>
