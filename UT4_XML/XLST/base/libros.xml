@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="libros.xsl" type="text/xsl"?>
+<libros>
+    <libro>
+        <titulo>1984</titulo>
+        <autor fecha_nacimiento="1903-06-25">George Orwell</autor>
+        <fecha_publicacion año="1949"/>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor fecha_nacimiento="1937-01-03">Gabriel García Marquez</autor>
+        <fecha_publicacion año="1968"/>
+    </libro>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor fecha_nacimiento="1460-01-13">Miguel de Cervantes</autor>
+        <fecha_publicacion año="1516"/>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor fecha_nacimiento="1937-01-03">Gabriel García Marquez</autor>
+        <fecha_publicacion año="1979"/>
+    </libro>
+    <libro>
+        <titulo>Principito</titulo>
+        <autor fecha_nacimiento="1437-05-05">Antonie de Saint-Exupey</autor>
+        <fecha_publicacion año="1766"/>
+    </libro>
+    <libro>
+        <titulo>El nombre de la Rosa</titulo>
+        <autor fecha_nacimiento="1922-01-03">Umberto Eco</autor>
+        <fecha_publicacion año="1959"/>
+    </libro>
+</libros>
