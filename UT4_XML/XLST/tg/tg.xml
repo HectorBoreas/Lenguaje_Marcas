@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="tg3.xsl" type="text/xsl"?>
+
+<tiendaGaming nombre="GamerZone" ubicacion="Madrid">
+    <producto id="P001" categoria="teclado">
+        <nombre>Teclado Mecánico RGB</nombre>
+        <marca>Logitech</marca>
+        <precio moneda="EUR">89.99</precio>
+        <stock disponible="sí">0</stock>
+    </producto>
+    <producto id="P002" categoria="ratón">
+        <nombre>Ratón Inalámbrico Gaming</nombre>
+        <marca>Razer</marca>
+        <precio moneda="EUR">59.95</precio>
+        <stock disponible="sí">40</stock>
+    </producto>
+    <producto id="P003" categoria="monitor">
+        <nombre>Monitor 27" 144Hz</nombre>
+        <marca>ASUS</marca>
+        <precio moneda="EUR">249.99</precio>
+        <stock disponible="no">0</stock>
+    </producto>
+    <producto id="P004" categoria="auriculares">
+        <nombre>Auriculares Surround 7.1</nombre>
+        <marca>SteelSeries</marca>
+        <precio moneda="EUR">119.00</precio>
+        <stock disponible="sí">15</stock>
+    </producto>
+    <producto id="P005" categoria="silla">
+        <nombre>Silla Gaming Ergonómica</nombre>
+        <marca>DXRacer</marca>
+        <precio moneda="EUR">299.50</precio>
+        <stock disponible="sí">10</stock>
+    </producto>
+</tiendaGaming>
