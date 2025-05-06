@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-stylesheet href="tg3.xsl" type="text/xsl"?>
+<?xml-stylesheet href="tg7.xsl" type="text/xsl"?>
 
 <tiendaGaming nombre="GamerZone" ubicacion="Madrid">
     <producto id="P001" categoria="teclado">
