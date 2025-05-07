@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fp>
+    <ciclos>
+      <ciclo siglas="DAM" duracion="2000">
+        <nombre>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</nombre>
+        <nivel>Grado superior</nivel>
+        <familia>Informática</familia>
+      </ciclo>
+      <ciclo siglas="DAW" duracion="2000">
+        <nombre>Técnico Superior en Desarrollo de Aplicaciones Web</nombre>
+        <nivel>Grado superior</nivel>
+        <familia>Informática</familia>
+      </ciclo>
+      <ciclo siglas="ASIR" duracion="2000">
+        <nombre>Técnico Superior en Administracion de Servicios informaticos y redes</nombre>
+        <nivel>Grado superior</nivel>
+        <familia>Informática</familia>
+      </ciclo>
+      <ciclo siglas="SMR" duracion="2000">
+        <nombre>Técnico en Sistemas microinformáticos y Redes</nombre>
+        <nivel>Grado medio</nivel>
+        <familia>Informática</familia>
+      </ciclo>
+    </ciclos>
+    <modulos>
+      <modulo codigo="01">
+        <nombre>Bases de datos</nombre>
+        <curso>1</curso>
+        <duracion>205</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+          <ciclo siglas="DAM"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="02">
+        <nombre>Entornos de desarrollo</nombre>
+        <curso>1</curso>
+        <duracion>90</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+          <ciclo siglas="DAM"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="03">
+        <nombre>Formación y orientación laboral</nombre>
+        <curso>1</curso>
+        <duracion>90</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+          <ciclo siglas="DAM"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="04">
+        <nombre>Lenguaje de marcas y sistemas de gestión de información</nombre>
+        <curso>1</curso>
+        <duracion>140</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="05">
+        <nombre>Programacion</nombre>
+        <curso>1</curso>
+        <duracion>270</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="06">
+        <nombre>Sistemas informáticos</nombre>
+        <curso>1</curso>
+        <duracion>205</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="07">
+        <nombre>Desarrollo web en entorno cliente</nombre>
+        <curso>2</curso>
+        <duracion>115</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="08">
+        <nombre>Desarrollo web en entorno servidor</nombre>
+        <curso>2</curso>
+        <duracion>180</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="09">
+        <nombre>Despliegue de aplicaciones web</nombre>
+        <curso>2</curso>
+        <duracion>80</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="10">
+        <nombre>Diseño de interfaces web</nombre>
+        <curso>2</curso>
+        <duracion>115</duracion>
+        <ciclos>
+          <ciclo siglas="DAW"/>
+        </ciclos>
+      </modulo>
+      <modulo codigo="99">
+        <nombre>Aplicaciones ofimáticass</nombre>
+        <curso>1</curso>
+        <ciclos>
+          <ciclo siglas="SMR"/>
+        </ciclos>
+      </modulo>
+    </modulos>
+    <alumnos>
+      <alumno beca="Si" id="SD">
+        <nombre>Sergio Dosuna</nombre>
+        <estudios>
+          <ciclo id="DAW">
+            <nota asignatura="01" n="B">6.0</nota>
+            <nota asignatura="02" n="N">8.0</nota>
+            <nota asignatura="03" n="S">9.0</nota>
+            <nota asinatura="04" n="B">6.0</nota>
+            <nota asignatura="05" n="N">7.0</nota>
+            <nota asignatura="06" n="N">7.0</nota>
+          </ciclo>
+        </estudios>
+      </alumno>
+      <alumno beca="Si" id="MD">
+        <nombre>María Díaz</nombre>
+        <estudios>
+          <ciclo id="DAW">
+            <nota asignatura="01" n="I">3.0</nota>
+            <nota asignatura="02" n="N">8.0</nota>
+            <nota asignatura="03" n="S">9.0</nota>
+            <nota asignatura="04" n="B">6.0</nota>
+            <nota asignatura="05" n="N">7.0</nota>
+            <nota asignatura="06" n="N">7.0</nota>
+          </ciclo>
+        </estudios>
+      </alumno>
+      <alumno beca="No" Id="AC">
+        <nombre>Antonio Calahorra</nombre>
+        <estudios>
+          <ciclo id="DAW">
+            <nota asignatura="01" n="I">4.0</nota>
+            <nota asignatura="02" n="N">8.0</nota>
+            <nota asignatura="03" n="S">9.0</nota>
+            <nota asignatura="04" n="B">6.0</nota>
+            <nota asignatura="05" n="N">7.0</nota>
+            <nota asignatura="06" n="N">7.0</nota>
+          </ciclo>
+        </estudios>
+      </alumno>
+      <alumno beca="No" id="SG">
+        <nombre>Sara González</nombre>
+        <estudios>
+          <ciclo id="DAW">
+            <nota asignatura="01" n="B">6.0</nota>
+            <nota asignatura="02" n="N">8.0</nota>
+            <nota asignatura="03" n="S">9.0</nota>
+            <nota asignatura="04" n="B">6.0</nota>
+            <nota asignatura="05" n="I">3.0</nota>
+            <nota asignatura="06" n="N">7.0</nota>
+          </ciclo>
+        </estudios>
+      </alumno>
+      <alumno beca="No" id="ET">
+        <nombre>Ernesto Tortilla</nombre>
+        <estudios>
+          <ciclo id="SMR">
+            <nota asignatura="99" n="N">8.0</nota>
+          </ciclo>
+        </estudios>
+      </alumno>
+    </alumnos>
+  </fp>
