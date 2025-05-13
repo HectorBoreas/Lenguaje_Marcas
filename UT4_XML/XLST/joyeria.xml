@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joyas>
+    <joya id="1" en_stock="true">
+        <nombre>Pulsera de Oro</nombre>
+        <precio moneda="EUR">249.99</precio>
+        <peso gramos="15">15.5</peso>
+        <fecha_creacion>2024-03-01</fecha_creacion>
+        <descripcion>Elegante pulsera de oro de 18 quilates</descripcion>
+    </joya>
+    <joya id="2" en_stock="false">
+        <nombre>Anillo de Plata</nombre>
+        <precio moneda="USD">99.50</precio>
+        <peso gramos="8">8.2</peso>
+        <fecha_creacion>2023-11-15</fecha_creacion>
+        <descripcion>Anillo de plata esterlina con incrustaciones</descripcion>
+    </joya>
+    <joya id="3" en_stock="true">
+        <nombre>Reloj de Lujo</nombre>
+        <precio moneda="GBP">1250.75</precio>
+        <peso gramos="120">120.7</peso>
+        <fecha_creacion>2022-07-20</fecha_creacion>
+        <descripcion>Reloj con caja de oro y correa de cuero</descripcion>
+    </joya>
+    <joya id="4" en_stock="true">
+        <nombre>Collar de Perlas</nombre>
+        <precio moneda="EUR">349.99</precio>
+        <peso gramos="50">50.4</peso>
+        <fecha_creacion>2021-12-05</fecha_creacion>
+        <descripcion>Collar con perlas naturales de alta calidad</descripcion>
+    </joya>
+    <joya id="5" en_stock="false">
+        <nombre>Pendientes de Diamante</nombre>
+        <precio moneda="USD">5000.00</precio>
+        <peso gramos="5">5.1</peso>
+        <fecha_creacion>2020-06-30</fecha_creacion>
+        <descripcion>Pendientes con diamantes talla brillante</descripcion>
+    </joya>
+    <joya id="6" en_stock="true">
+        <nombre>Brazalete de titanio</nombre>
+        <precio moneda="EUR">1999.99</precio>
+        <peso gramos="30">30.0</peso>
+        <fecha_creacion>2023-09-10</fecha_creacion>
+        <descripcion>Brazalete moderno con diseño minimalista</descripcion>
+    </joya>
+    <joya id="7" en_stock="true">
+        <nombre>Broche de Zafiro</nombre>
+        <precio moneda="GBP">799.95</precio>
+        <peso gramos="10">10.3</peso>
+        <fecha_creacion>2024-01-22</fecha_creacion>
+        <descripcion>Broche decorado con zafiros azules naturales</descripcion>
+    </joya>
+    <joya id="8" en_stock="false">
+        <nombre>Alfiler de Oro Blanco</nombre>
+        <precio moneda="EUR">150.00</precio>
+        <peso gramos="7">7.2</peso>
+        <fecha_creacion>2022-04-18</fecha_creacion>
+        <descripcion>Alfiler de solapa en oro blanco de 14 quilates</descripcion>
+    </joya>
+</joyas>
