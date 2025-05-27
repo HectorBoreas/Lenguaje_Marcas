@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="prueba.xsl" type="text/xsl"?>
 <biblio>
     <libros>
         <libro codigo="12345">
             <nombre>La sombra del águila</nombre>            
             <autor>Arturo Pérez-Reverte</autor>
-            <año_primera_edicion>1993</año_primera_edicion>
+            <anyo_primera_edicion>1993</anyo_primera_edicion>
             <saga Valor="0"/>
             <ejemplares>
                 <ejemplar>
@@ -30,7 +31,7 @@
         <libro codigo="98745">
             <nombre>Hyperion</nombre>            
             <autor>Dan Simmons</autor>
-            <año_primera_edicion>1989</año_primera_edicion>
+            <anyo_primera_edicion>1989</anyo_primera_edicion>
             <saga Valor="1">Los cantos de Hyperion</saga>
             <ejemplares>
                 <ejemplar>
